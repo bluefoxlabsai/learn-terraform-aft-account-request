@@ -1,9 +1,9 @@
-module "sandbox" {
+module "testaccount01" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
     AccountEmail              = "testaccount01@bluefoxlabs.ai"
-    AccountName               = "sandbox-aft"
+    AccountName               = "testaccount01-aft"
     ManagedOrganizationalUnit = "Learn AFT"
     SSOUserEmail              = "brian@bluefoxlabs.ai"
     SSOUserFirstName          = "Brian"
