@@ -8,6 +8,7 @@ module "sandbox" {
     SSOUserEmail              = "brian@bluefoxlabs.ai"
     SSOUserFirstName          = "Brian"
     SSOUserLastName           = "Pasquini"
+    
   }
 
   account_tags = {
