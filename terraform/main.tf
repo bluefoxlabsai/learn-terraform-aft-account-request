@@ -6,8 +6,8 @@ module "sandbox" {
     AccountName               = "sandbox-aft"
     ManagedOrganizationalUnit = "Learn AFT"
     SSOUserEmail              = "brian@bluefoxlabs.ai"
-    SSOUserFirstName          = "Sandbox"
-    SSOUserLastName           = "AFT"
+    SSOUserFirstName          = "Brian"
+    SSOUserLastName           = "Pasquini"
   }
 
   account_tags = {
